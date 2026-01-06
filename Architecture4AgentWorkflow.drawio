@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="2">
+  <diagram name="Page-1" id="luMH8w2EwFJKcneyTGOp">
+    <mxGraphModel dx="1425" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="input" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" value="需求输入&#xa;(开发 / Debug)" vertex="1">
+          <mxGeometry height="60" width="180" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mainAgent" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;" value="主Agent&lt;br&gt;(默认 Agent)" vertex="1">
+          <mxGeometry height="70" width="240" x="370" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="devAgent" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="SubAgent&#xa;战斗开发" vertex="1">
+          <mxGeometry height="60" width="180" x="120" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="debugAgent" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="SubAgent&#xa;战斗 Debug" vertex="1">
+          <mxGeometry height="60" width="180" x="680" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="llm" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="LLM 大脑&#xa;(推理引擎)" vertex="1">
+          <mxGeometry height="70" width="200" x="390" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rag" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" value="RAG 知识库" vertex="1">
+          <mxGeometry height="110" width="220" x="380" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="e_input_main" edge="1" parent="1" source="input" style="endArrow=block;rounded=0;" target="mainAgent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main_dev" edge="1" parent="1" source="mainAgent" style="endArrow=block;rounded=0;" target="devAgent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main_debug" edge="1" parent="1" source="mainAgent" style="endArrow=block;rounded=0;" target="debugAgent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dev_llm" edge="1" parent="1" source="devAgent" style="endArrow=block;rounded=0;dashed=1;" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_debug_llm" edge="1" parent="1" source="debugAgent" style="endArrow=block;rounded=0;dashed=1;" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dev_rag" edge="1" parent="1" source="devAgent" style="endArrow=block;rounded=0;" target="rag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_debug_rag" edge="1" parent="1" source="debugAgent" style="endArrow=block;rounded=0;" target="rag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_llm_rag" edge="1" parent="1" source="llm" style="endArrow=block;rounded=0;dashed=1;" target="rag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NwFKb0B_0MwfSdKU8grA" name="Page-2">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uwRiUNchKBad3bXihnih-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" value="需求输入 (开发 / Debug)" vertex="1">
+          <mxGeometry height="60" width="180" x="400" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
