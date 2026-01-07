@@ -225,141 +225,143 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CNjgQacw2ybQlvf3ki_b" name="Page-4">
-    <mxGraphModel dx="1425" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;rounded=1;fontColor=#ffffff;fontSize=18;fontStyle=1;" value="������ 战斗 Agent 系统完整架构" vertex="1">
-          <mxGeometry height="50" width="400" x="300" y="20" as="geometry" />
+        <mxCell id="Title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" value="������ 战斗 Agent 系统整体架构图" vertex="1">
+          <mxGeometry height="40" width="500" x="334.5" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;rounded=1;fontColor=#ffffff;fontSize=18;fontStyle=1;" value="������ 战斗 Agent 系统完整架构" vertex="1">
-          <mxGeometry height="50" width="400" x="300" y="20" as="geometry" />
+        <mxCell id="Layer_Interaction" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;childLayout=none;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#F5F7FA;strokeColor=#E1E4E8;fontColor=#333333;fontStyle=1;rounded=1;" value="交互与路由层" vertex="1">
+          <mxGeometry height="130" width="1050" x="60" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontSize=18;fontStyle=1;" value="程序战斗 Agent 系统架构" vertex="1">
-          <mxGeometry height="50" width="400" x="400" y="20" as="geometry" />
+        <mxCell id="User" parent="Layer_Interaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontStyle=1;fontSize=14;" value="用户" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="用户" vertex="1">
-          <mxGeometry height="60" width="80" x="50" y="140" as="geometry" />
+        <mxCell id="MainAgent" parent="Layer_Interaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;fontSize=14;" value="主 Agent" vertex="1">
+          <mxGeometry height="60" width="140" x="240" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;fontStyle=1;" value="主 Agent&lt;br&gt;(默认 Agent)" vertex="1">
-          <mxGeometry height="100" width="150" x="200" y="120" as="geometry" />
+        <mxCell id="Router" parent="Layer_Interaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;fontSize=14;" value="任务路由器" vertex="1">
+          <mxGeometry height="60" width="140" x="460" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" value="任务路由器" vertex="1">
-          <mxGeometry height="40" width="120" x="390" y="150" as="geometry" />
+        <mxCell id="LLM_Brain" parent="Layer_Interaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontStyle=1;fontSize=16;" value="������ LLM 大脑" vertex="1">
+          <mxGeometry height="80" width="160" x="850" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontStyle=1;" value="战斗开发 SubAgent" vertex="1">
-          <mxGeometry height="50" width="140" x="550" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;fontStyle=1;" value="战斗Debug SubAgent" vertex="1">
-          <mxGeometry height="50" width="140" x="550" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-9" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;fontStyle=1;" value="LLM 大脑" vertex="1">
-          <mxGeometry height="80" width="100" x="750" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-10" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="记忆系统" vertex="1">
-          <mxGeometry height="40" width="650" x="200" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-11" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontStyle=1;" value="_index.md&#xa;(唯一入口)" vertex="1">
-          <mxGeometry height="60" width="120" x="200" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;align=left;spacingLeft=5;" value="领域级记忆&#xa;_memory/&#xa;• domain_context.md&#xa;• domain_agreements.md" vertex="1">
-          <mxGeometry height="80" width="160" x="340" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-13" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;align=left;spacingLeft=5;" value="需求级记忆&#xa;_workspaces/[需求名]/&#xa;• context.md&#xa;• progress.md&#xa;• decisions.md&#xa;• insights.md" vertex="1">
-          <mxGeometry height="100" width="170" x="520" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-14" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;align=left;spacingLeft=5;" value="知识库&#xa;• Concepts/&#xa;• Development/&#xa;• Debug/" vertex="1">
-          <mxGeometry height="80" width="140" x="710" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-15" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="工具层" vertex="1">
-          <mxGeometry height="35" width="650" x="200" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-16" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;align=left;spacingLeft=5;" value="Skills&#xa;• moe-status-writer&#xa;• moe-memory-archiver" vertex="1">
-          <mxGeometry height="70" width="150" x="200" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-17" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;align=left;spacingLeft=5;" value="MCP Tools&#xa;• drawio&#xa;• git&#xa;• (RAG...)" vertex="1">
-          <mxGeometry height="70" width="150" x="370" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;align=left;spacingLeft=5;" value="内置工具&#xa;• read_file&#xa;• codebase_search&#xa;• grep_search&#xa;• edit_file" vertex="1">
-          <mxGeometry height="70" width="150" x="540" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-19" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;align=left;spacingLeft=5;" value="代码库&#xa;LetsGoDevelop/&#xa;• MoeGameplay/&#xa;• StatusSystem/" vertex="1">
-          <mxGeometry height="70" width="140" x="710" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="SubAgent 工作流程" vertex="1">
-          <mxGeometry height="35" width="130" x="50" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-21" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="① 读取 _index.md" vertex="1">
-          <mxGeometry height="35" width="130" x="50" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-22" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="② 加载必读记忆" vertex="1">
-          <mxGeometry height="35" width="130" x="50" y="380" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-23" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="③ 检索知识库" vertex="1">
-          <mxGeometry height="35" width="130" x="50" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-24" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" value="④ 执行任务" vertex="1">
-          <mxGeometry height="35" width="130" x="50" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-25" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="⑤ 更新记忆" vertex="1">
-          <mxGeometry height="35" width="130" x="50" y="530" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-26" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="记忆生命周期图例" vertex="1">
-          <mxGeometry height="30" width="650" x="200" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-27" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;fontSize=10;" value="领域级 (长期)" vertex="1">
-          <mxGeometry height="30" width="100" x="200" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-28" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;fontSize=10;" value="需求级 (需求周期)" vertex="1">
-          <mxGeometry height="30" width="120" x="320" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-29" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;fontSize=10;" value="知识库 (永久)" vertex="1">
-          <mxGeometry height="30" width="100" x="460" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-30" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;fontSize=10;" value="工具 (调用时)" vertex="1">
-          <mxGeometry height="30" width="100" x="580" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-31" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontSize=10;" value="硬编码入口" vertex="1">
-          <mxGeometry height="30" width="80" x="700" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-32" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;rounded=0;align=left;spacingLeft=5;fontSize=9;" value="关键设计要点：&#xa;1. SubAgent 系统提示词只硬编码 _index.md 一个路径&#xa;2. _index.md 作为路由中心，指导读取其他文件&#xa;3. 记忆分层：领域级(跨需求) → 需求级(单需求) → 知识库(永久)&#xa;4. 记忆污染防护：只有战斗话题才写入战斗记忆" vertex="1">
-          <mxGeometry height="150" width="130" x="50" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-33" parent="1" style="whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="经验沉淀" vertex="1">
-          <mxGeometry height="30" width="80" x="800" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-34" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;fontSize=9;" value="insights.md&#xa;↓&#xa;moe-memory-archiver&#xa;↓&#xa;知识库文档" vertex="1">
-          <mxGeometry height="90" width="80" x="800" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-35" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-5" value="">
+        <mxCell id="Edge_User_Main" edge="1" parent="Layer_Interaction" source="User" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673A6;" target="MainAgent">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-36" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-6" value="">
+        <mxCell id="Edge_Main_Router" edge="1" parent="Layer_Interaction" source="MainAgent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6C8EBF;" target="Router">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-37" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-5" value="">
+        <mxCell id="Layer_CoreAgents" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;childLayout=none;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#E8F5E9;strokeColor=#A5D6A7;fontColor=#2E7D32;fontStyle=1;rounded=1;" value="核心战斗 SubAgent 层 (主要贡献)" vertex="1">
+          <mxGeometry height="160" width="1050" x="60" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DevAgent" parent="Layer_CoreAgents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;fontSize=16;" value="⚔️ 战斗开发 SubAgent" vertex="1">
+          <mxGeometry height="80" width="200" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DebugAgent" parent="Layer_CoreAgents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=1;fontSize=16;" value="������️ 战斗 Debug SubAgent" vertex="1">
+          <mxGeometry height="80" width="200" x="560" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge_Router_Dev" edge="1" parent="1" source="Router" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#D6B656;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DevAgent">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="225" />
+              <mxPoint x="440" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Edge_Router_Debug" edge="1" parent="1" source="Router" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#D6B656;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DebugAgent">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="225" />
+              <mxPoint x="720" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Edge_Dev_LLM" edge="1" parent="1" source="DevAgent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#D79B00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="LLM_Brain">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="330" />
+              <mxPoint x="820" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Edge_Debug_LLM" edge="1" parent="1" source="DebugAgent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#D79B00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="LLM_Brain">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Layer_Resources" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;childLayout=none;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#F0F0F0;strokeColor=#CCCCCC;fontColor=#333333;fontStyle=1;rounded=1;" value="底层资源支撑 (记忆与工具)" vertex="1">
+          <mxGeometry height="280" width="1050" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Group_Memory" parent="Layer_Resources" style="swimlane;html=1;startSize=25;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;rounded=1;" value="记忆系统" vertex="1">
+          <mxGeometry height="220" width="480" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IndexMD" parent="Group_Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;strokeColor=#B85450;fontStyle=1;fontSize=13;fontColor=#FFFFFF;" value="������ _index.md (入口)" vertex="1">
+          <mxGeometry height="50" width="140" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Mem_Domain" parent="Group_Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" value="领域级记忆" vertex="1">
+          <mxGeometry height="60" width="130" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mem_Req" parent="Group_Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" value="需求级记忆" vertex="1">
+          <mxGeometry height="60" width="130" x="175" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mem_KB" parent="Group_Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;fontStyle=1;" value="������ 知识库" vertex="1">
+          <mxGeometry height="60" width="130" x="330" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Edge_Index_Domain" edge="1" parent="Group_Memory" source="IndexMD" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6C8EBF;" target="Mem_Domain">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-38" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-5" value="">
+        <mxCell id="Edge_Index_Req" edge="1" parent="Group_Memory" source="IndexMD" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6C8EBF;" target="Mem_Req">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-39" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-6" value="">
+        <mxCell id="Edge_Index_KB" edge="1" parent="Group_Memory" source="IndexMD" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6C8EBF;" target="Mem_KB">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-40" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-7" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Group_Tools" parent="Layer_Resources" style="swimlane;html=1;startSize=25;fillColor=#FFF2CC;strokeColor=#D6B656;fontColor=#000000;rounded=1;" value="工具层" vertex="1">
+          <mxGeometry height="220" width="480" x="540" y="40" as="geometry">
+            <mxRectangle height="30" width="80" x="540" y="40" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-41" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-8" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Tool_Skills" parent="Group_Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" value="Skills" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-42" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-8" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Tool_MCP" parent="Group_Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" value="MCP Tools" vertex="1">
+          <mxGeometry height="60" width="100" x="320" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-43" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-9" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Tool_Code" parent="Group_Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" value="������ 代码库" vertex="1">
+          <mxGeometry height="60" width="420" x="30" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="Sv_7chk1BpO6BBRl0BxN-44" edge="1" parent="1" source="Sv_7chk1BpO6BBRl0BxN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Sv_7chk1BpO6BBRl0BxN-9" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Workflow_Arrow_1" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=13;fontStyle=1;fillColor=#4D9900;strokeColor=#2E7D32;fontColor=#FFFFFF;width=12;endSize=8.67;" value="① 加载记忆">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Workflow_Arrow_2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=13;fontStyle=1;fillColor=#D79B00;strokeColor=#B46504;fontColor=#FFFFFF;width=12;endSize=8.67;" value="② 检索 &amp; 决策">
+          <mxGeometry relative="1" x="1" y="681" as="geometry">
+            <mxPoint x="680" y="651" as="offset" />
+            <mxPoint x="540" y="560" as="sourcePoint" />
+            <mxPoint x="600" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Workflow_Arrow_3" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=13;fontStyle=1;fillColor=#B85450;strokeColor=#960000;fontColor=#FFFFFF;width=12;endSize=8.67;" value="③ 执行任务">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="480" as="sourcePoint" />
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Workflow_Arrow_4" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=13;fontStyle=1;fillColor=#6C8EBF;strokeColor=#1A3366;fontColor=#FFFFFF;width=12;endSize=8.67;" value="④ 更新记忆">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="430" />
+              <mxPoint x="480" y="430" />
+            </Array>
+            <mxPoint x="660" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
