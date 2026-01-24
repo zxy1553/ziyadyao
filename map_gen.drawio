@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="3">
+  <diagram name="Page-1" id="xA1-hVlDV9qrIl4N8CpH">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qtKRxrFFhfPslwNljVg2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="开始：放置起始房间" vertex="1">
+          <mxGeometry height="60" width="180" x="50" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12" value="初始化分支点池&#xa;(BranchManager)" vertex="1">
+          <mxGeometry height="60" width="180" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="主循环开始&#xa;当前房间数 &lt; 目标数&#xa;且有可用分支" vertex="1">
+          <mxGeometry height="80" width="180" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="【分支选择策略】&#xa;1. 检查深度需求&#xa;2. 选择策略：强制最深/&#xa;   偏好更深/随机" vertex="1">
+          <mxGeometry height="80" width="200" x="300" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="从分支池中选择一个&#xa;分支点（门）" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="选择房间类型&#xa;（根据权重配置）" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-9" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="【尝试放置】&#xa;遍历所有模板和旋转&#xa;检查空间是否可用" vertex="1">
+          <mxGeometry height="80" width="200" x="300" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="放置成功？" vertex="1">
+          <mxGeometry height="60" width="140" x="300" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-11" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="✅ 成功分支&#xa;1. 放置房间&#xa;2. 添加新门到分支池&#xa;3. 房间数+1" vertex="1">
+          <mxGeometry height="80" width="180" x="550" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="❌ 失败分支&#xa;【触发BLOCK】&#xa;1. 标记该门为blocked&#xa;2. 从分支池移除&#xa;3. 不再尝试此门" vertex="1">
+          <mxGeometry height="100" width="180" x="80" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-13" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="返回主循环&#xa;继续选择下一个分支" vertex="1">
+          <mxGeometry height="60" width="180" x="550" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-14" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="循环结束条件：&#xa;1. 达到目标房间数&#xa;2. 分支池为空" vertex="1">
+          <mxGeometry height="80" width="180" x="50" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-15" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="【后处理阶段】&#xa;1. 尝试形成环路&#xa;2. 确保入口连接&#xa;3. Revive部分门" vertex="1">
+          <mxGeometry height="80" width="180" x="50" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" value="生成完成" vertex="1">
+          <mxGeometry height="60" width="180" x="50" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-17" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=left;" value="【分支选择策略详解】&#xa;&#xa;1️⃣ 强制最深 (Force Deepest)&#xa;   - 当前深度 &lt; 最小深度要求&#xa;   - 选择深度最大的分支&#xa;&#xa;2️⃣ 偏好更深 (Prefer Deeper)&#xa;   - 接近最小深度&#xa;   - 70%概率选深的，30%随机&#xa;&#xa;3️⃣ 随机选择 (Random)&#xa;   - 已满足深度要求&#xa;   - 从所有可用分支随机选" vertex="1">
+          <mxGeometry height="180" width="280" x="550" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=left;" value="【BLOCK触发条件】&#xa;&#xa;❌ 情况1：空间冲突&#xa;   - 所有模板和旋转都无法放置&#xa;   - 与已有房间重叠&#xa;&#xa;❌ 情况2：边界限制&#xa;   - 超出地图边界&#xa;   - 违反空间约束&#xa;&#xa;❌ 情况3：尝试次数耗尽&#xa;   - 遍历完所有可能性&#xa;   - 仍无法找到合适位置&#xa;&#xa;➡️ 结果：门被标记blocked&#xa;   从分支池永久移除" vertex="1">
+          <mxGeometry height="200" width="280" x="550" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-19" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=left;" value="【Revive机制】&#xa;&#xa;后处理阶段可能重新激活blocked门：&#xa;&#xa;✅ 条件：&#xa;   - 形成环路需要&#xa;   - 增加连通性&#xa;   - 空间现在可用&#xa;&#xa;⚠️ 注意：&#xa;   - 不是所有blocked门都会revive&#xa;   - 优先级：环路 &gt; 连通性" vertex="1">
+          <mxGeometry height="140" width="280" x="550" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;" value="【分支池状态变化】&#xa;&#xa;初始：[起始房间的门]&#xa;&#xa;每次成功放置：&#xa;  + 新房间的所有未用门&#xa;  - 已使用的连接门&#xa;&#xa;每次失败：&#xa;  - 尝试失败的门(blocked)&#xa;&#xa;循环直到：&#xa;  分支池为空 OR 达到目标" vertex="1">
+          <mxGeometry height="160" width="240" x="850" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-21" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;fontFamily=Courier New;" value="【实际例子】&#xa;&#xa;步骤1：放置起始房间A (4个门)&#xa;  分支池 = [A-门1, A-门2, A-门3, A-门4]&#xa;&#xa;步骤2：选择A-门1，放置房间B成功 (3个门)&#xa;  分支池 = [A-门2, A-门3, A-门4, B-门1, B-门2]&#xa;  (A-门1和B的连接门已使用，移除)&#xa;&#xa;步骤3：选择B-门1，放置失败&#xa;  B-门1 → blocked&#xa;  分支池 = [A-门2, A-门3, A-门4, B-门2]&#xa;&#xa;步骤4：选择A-门2，放置房间C成功&#xa;  分支池 = [A-门3, A-门4, B-门2, C-门1, C-门2]&#xa;&#xa;...&#xa;&#xa;继续直到分支池为空或达到目标房间数" vertex="1">
+          <mxGeometry height="280" width="300" x="850" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qtKRxrFFhfPslwNljVg2-22" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;fontFamily=Courier New;" value="【关键代码位置】&#xa;&#xa;������ tree_map_generator.py&#xa;&#xa;• _grow_map() - 主循环&#xa;• BranchManager.select_branch() - 分支选择&#xa;• _try_place_room() - 尝试放置&#xa;• _mark_branch_blocked() - 标记blocked&#xa;• _densify_connections() - 后处理环路&#xa;• _ensure_entrance_connections() - 入口连接" vertex="1">
+          <mxGeometry height="140" width="300" x="850" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lMDB8_voAcMcI4Upgwr9" name="Page-2">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KrEwE9OKLrekPFScWrF4-11" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" value="步骤1：放置起始房间" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-12" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="步骤2：初始化分支池&#xa;[起始房间的所有门]" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-13" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="步骤3：从分支池&#xa;选择一个门" vertex="1">
+          <mxGeometry height="70" width="200" x="200" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-14" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="步骤4：尝试放置&#xa;新房间" vertex="1">
+          <mxGeometry height="70" width="200" x="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-15" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-16" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" value="成功？" vertex="1">
+          <mxGeometry height="60" width="160" x="220" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-19" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="KrEwE9OKLrekPFScWrF4-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="✅ 成功&#xa;添加新房间的门&#xa;到分支池" vertex="1">
+          <mxGeometry height="80" width="180" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-18" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KrEwE9OKLrekPFScWrF4-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="❌ 失败&#xa;标记门blocked&#xa;移出分支池" vertex="1">
+          <mxGeometry height="80" width="140" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-20" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KrEwE9OKLrekPFScWrF4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="步骤5：检查是否继续&#xa;房间数够？分支池空？" vertex="1">
+          <mxGeometry height="70" width="200" x="200" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-21" edge="1" parent="1" source="KrEwE9OKLrekPFScWrF4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KrEwE9OKLrekPFScWrF4-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-9" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="步骤6：后处理&#xa;形成环路、确保连通" vertex="1">
+          <mxGeometry height="70" width="200" x="200" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="KrEwE9OKLrekPFScWrF4-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;" value="完成！" vertex="1">
+          <mxGeometry height="60" width="200" x="200" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mvphaxw5jqGEQOM4d8n8" name="Page-3">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6suG5GjhuQa6sjy6ItP9-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="步骤1: 放置起始房间&#xa;Room_0 (深度=0)" vertex="1">
+          <mxGeometry height="80" width="150" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6suG5GjhuQa6sjy6ItP9-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="分支池初始化&#xa;4个门可用" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
