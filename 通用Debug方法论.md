@@ -66,7 +66,7 @@
 
 这样你才能“读日志像读时间线”。
 
-并且按你的偏好：日志级别用 **Log/Warning/Error** 即可 [[memory:0i6x0snf]]。
+并且按你的偏好：日志级别用 **Log/Warning/Error** 即可。
 
 ### 3.2 采样点（Trace）/性能时序工具（如果项目允许）
 如果你在 UE 环境里，**Unreal Insights**（或 Trace）对“谁先谁后”非常强：它不打断时序，且能看跨线程。  
