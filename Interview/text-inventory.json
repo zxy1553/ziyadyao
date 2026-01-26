@@ -1,0 +1,2431 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.92,
+      "top": 2.09,
+      "width": 2.54,
+      "height": 0.35,
+      "paragraphs": [
+        {
+          "text": "TENCENT Interactive Entertainment Group",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "Internship Oral Defense",
+          "font_name": "NotoSansSC",
+          "font_size": 10.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.4,
+      "top": 2.05,
+      "width": 0.87,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【照片位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.5,
+      "top": 2.77,
+      "width": 1.97,
+      "height": 0.91,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-3": 0.26
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "实习生",
+          "font_name": "NotoSansSC",
+          "font_size": 45.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.5,
+      "top": 3.55,
+      "width": 2.62,
+      "height": 0.91,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.26
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "转正答辩",
+          "font_name": "NotoSansSC",
+          "font_size": 45.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 6.27,
+      "top": 3.51,
+      "width": 0.59,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "汇报人",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 6.27,
+      "top": 3.75,
+      "width": 1.05,
+      "height": 0.72,
+      "paragraphs": [
+        {
+          "text": "姚圳",
+          "font_name": "NotoSansSC",
+          "font_size": 36.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.71,
+      "top": 5.15,
+      "width": 2.1,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "元梦之星开发一组",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 6.85,
+      "top": 4.73,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "毕业院校",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.85,
+      "top": 4.92,
+      "width": 3.17,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "华东师范大学  ×  蔚蓝海岸大学",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 6.85,
+      "top": 5.46,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "专业学科",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.85,
+      "top": 5.65,
+      "width": 2.41,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "软件工程与计算机信息学",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 6.85,
+      "top": 6.19,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "指导老师",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 6.85,
+      "top": 6.38,
+      "width": 0.66,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "蒋甫政",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 8.56,
+      "top": 6.19,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "入职时间",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 8.56,
+      "top": 6.38,
+      "width": 0.68,
+      "height": 0.25,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025.09",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "000000"
+        }
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "left": 0.75,
+      "top": 0.3,
+      "width": 2.95,
+      "height": 0.45,
+      "paragraphs": [
+        {
+          "text": "传统战斗开发的困境",
+          "font_name": "NotoSansSC",
+          "font_size": 22.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 12.25,
+      "top": 0.41,
+      "width": 0.61,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "现状分析",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.33,
+      "top": 1.96,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "开发效率痛点",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.33,
+      "top": 2.46,
+      "width": 3.77,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：描述传统开发模式下，代码编写繁琐、迭代周期",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.33,
+      "top": 2.7,
+      "width": 1.02,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "长等效率问题】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.33,
+      "top": 3.79,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "调试难度痛点",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.33,
+      "top": 4.28,
+      "width": 3.98,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：描述逻辑复杂、Bug定位困难、缺乏可视化调试工",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.33,
+      "top": 4.52,
+      "width": 0.73,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "具等问题】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.44,
+      "top": 4.82,
+      "width": 4.21,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "建议放置：现有开发流程图 / 复杂代码截图 / 报错日志堆叠图",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 8.25,
+      "top": 4.4,
+      "width": 2.25,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "【痛点示意图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.33,
+      "top": 5.6,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "重复工作痛点",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.33,
+      "top": 6.09,
+      "width": 3.77,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：描述大量样板代码、相似逻辑无法复用、维护成",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 1.33,
+      "top": 6.33,
+      "width": 0.87,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "本高等问题】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 10.89,
+      "top": 6.84,
+      "width": 1.98,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "数据来源：内部研发效能报告 2025",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "left": 0.75,
+      "top": 0.2,
+      "width": 3.45,
+      "height": 0.46,
+      "paragraphs": [
+        {
+          "text": "Agent System 解决方案",
+          "font_name": "NotoSansSC",
+          "font_size": 22.5,
+          "bold": false,
+          "underline": false,
+          "color": "0F172A"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.4,
+      "top": 0.3,
+      "width": 1.38,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "技术架构与价值主张",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "5F6368"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.18,
+      "top": 1.54,
+      "width": 1.54,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "Dev Agent 价值",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1E293B"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.68,
+      "top": 1.46,
+      "width": 1.22,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "解决方案架构图",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "334155"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 11.52,
+      "top": 1.48,
+      "width": 1.12,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Architecture View",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.87,
+      "top": 2.23,
+      "width": 3.54,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：请输入Dev Agent在代码生成、辅助开发方",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.02,
+      "top": 2.44,
+      "width": 1.16,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "面的具体价值点】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.18,
+      "top": 3.55,
+      "width": 1.82,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "Debug Agent 价值",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1E293B"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.84,
+      "top": 4.24,
+      "width": 3.59,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：请输入Debug Agent在问题定位、日志分析",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.95,
+      "top": 4.45,
+      "width": 1.31,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "方面的具体价值点】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.18,
+      "top": 5.57,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "整体效能提升",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1E293B"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 0.85,
+      "top": 6.25,
+      "width": 3.52,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：请输入整体研发效能提升的关键数据或定性",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 2.39,
+      "top": 6.46,
+      "width": 0.44,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "描述】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 11.06,
+      "top": 6.52,
+      "width": 1.38,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "【解决方案架构图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "left": 1.0,
+      "top": 0.25,
+      "width": 3.15,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "战斗Dev Agent - 模块展示",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.97,
+      "top": 1.54,
+      "width": 1.18,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "系统架构概览",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 7.14,
+      "top": 1.57,
+      "width": 1.12,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Architecture View",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 9.23,
+      "top": 1.56,
+      "width": 0.19,
+      "height": 0.26,
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 9.58,
+      "top": 1.56,
+      "width": 0.96,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "模块1功能",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 10.1,
+      "top": 2.96,
+      "width": 1.64,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "请输入模块1的具体功能描述",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 10.47,
+      "top": 2.69,
+      "width": 0.83,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "【待填充】",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 2.36,
+      "top": 4.89,
+      "width": 4.29,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "请在此处插入系统架构图，展示各模块间的交互关系与数据流向。",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 3.22,
+      "top": 4.51,
+      "width": 2.59,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "【Dev Agent架构图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 9.23,
+      "top": 4.6,
+      "width": 0.19,
+      "height": 0.26,
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 9.58,
+      "top": 4.6,
+      "width": 0.96,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "模块2功能",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 3.45,
+      "top": 5.09,
+      "width": 2.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "建议尺寸：16:9 或 4:3 高清图片",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 10.1,
+      "top": 6.0,
+      "width": 1.64,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "请输入模块2的具体功能描述",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 10.47,
+      "top": 5.73,
+      "width": 0.83,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "【待填充】",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "left": 0.65,
+      "top": 0.25,
+      "width": 3.15,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "战斗Dev Agent - 具体案例",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.76,
+      "top": 0.34,
+      "width": 0.72,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "AI 辅助开发",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.56,
+      "top": 3.71,
+      "width": 4.46,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "请在此处插入 Dev Agent 实际运行界面或代码生成演示图",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.06,
+      "top": 3.27,
+      "width": 3.36,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "【Dev Agent运行截图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.62,
+      "top": 6.01,
+      "width": 0.59,
+      "height": 0.68,
+      "paragraphs": [
+        {
+          "text": "XX",
+          "font_name": "NotoSansSC",
+          "font_size": 36.0,
+          "bold": false,
+          "underline": false,
+          "color": "374151"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.79,
+      "top": 5.69,
+      "width": 0.98,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "生成前耗时",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 7.52,
+      "top": 5.83,
+      "width": 0.73,
+      "height": 0.85,
+      "paragraphs": [
+        {
+          "text": "XX",
+          "font_name": "NotoSansSC",
+          "font_size": 45.0,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.69,
+      "top": 5.53,
+      "width": 0.98,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "生成后耗时",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "DBEAFE"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.62,
+      "top": 6.7,
+      "width": 1.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "传统人工编写模式",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.35,
+      "top": 6.32,
+      "width": 0.44,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "分钟",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.61,
+      "top": 6.48,
+      "width": 0.14,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "VS",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 8.41,
+      "top": 6.23,
+      "width": 0.26,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "秒",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "DBEAFE"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 7.91,
+      "top": 6.79,
+      "width": 0.92,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "效率提升显著",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    }
+  },
+  "slide-5": {
+    "shape-0": {
+      "left": 0.75,
+      "top": 0.39,
+      "width": 5.12,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "战斗Debug Agent - 模块展示",
+          "font_name": "NotoSansSC",
+          "font_size": 27.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.75,
+      "top": 0.93,
+      "width": 3.11,
+      "height": 0.2,
+      "paragraphs": [
+        {
+          "text": "COMBAT DEBUG AGENT MODULE SHOWCASE",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.71,
+      "top": 1.69,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "日志分析模块",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 9.04,
+      "top": 2.91,
+      "width": 2.61,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "【待填充：日志分析模块说明】",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 2.61,
+      "top": 4.44,
+      "width": 2.87,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "【Debug Agent架构图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.34,
+      "top": 4.82,
+      "width": 1.38,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "请在此处插入架构图",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 8.71,
+      "top": 4.67,
+      "width": 0.87,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "定位模块",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 9.23,
+      "top": 5.89,
+      "width": 2.24,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "【待填充：定位模块说明】",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "left": 0.87,
+      "top": 0.22,
+      "width": 4.27,
+      "height": 0.46,
+      "paragraphs": [
+        {
+          "text": "战斗Debug Agent - 具体案例",
+          "font_name": "NotoSansSC",
+          "font_size": 22.5,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.56,
+      "top": 1.26,
+      "width": 1.75,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "调试过程全景视图",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.78,
+      "top": 3.27,
+      "width": 3.69,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "【Debug Agent调试截图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.14,
+      "top": 3.78,
+      "width": 3.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "请在此处插入实际调试过程的截图或录屏关键帧",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.56,
+      "top": 5.09,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "效能对比分析",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.62,
+      "top": 5.86,
+      "width": 1.18,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "人工定位时间",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "4B5563"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 8.04,
+      "top": 5.84,
+      "width": 1.32,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "Agent定位时间",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 12.07,
+      "top": 5.88,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "效率提升",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 5.21,
+      "top": 6.46,
+      "width": 0.29,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "XX",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "374151"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 5.56,
+      "top": 6.57,
+      "width": 0.77,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "分钟 (Avg)",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 11.74,
+      "top": 6.43,
+      "width": 0.31,
+      "height": 0.43,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-11": 0.01
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "X",
+          "font_name": "NotoSansSC",
+          "font_size": 22.5,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 11.98,
+      "top": 6.6,
+      "width": 0.77,
+      "height": 0.21,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.01
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "分钟 (Avg)",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "left": 0.75,
+      "top": 0.3,
+      "width": 3.45,
+      "height": 0.46,
+      "paragraphs": [
+        {
+          "text": "Agent System 整体成果",
+          "font_name": "NotoSansSC",
+          "font_size": 22.5,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.97,
+      "top": 1.64,
+      "width": 1.53,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "代码生成采纳率",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.61,
+      "top": 1.7,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "核心指标",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.22,
+      "top": 1.64,
+      "width": 1.49,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "Bug定位准确率",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.86,
+      "top": 1.7,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "质量指标",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 9.47,
+      "top": 1.64,
+      "width": 1.31,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "研发效率提升",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 12.11,
+      "top": 1.7,
+      "width": 0.52,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "效能指标",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.32,
+      "top": 3.61,
+      "width": 2.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "建议展示：月度采纳率趋势折线图",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.57,
+      "top": 3.26,
+      "width": 1.68,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "【待填充数据图表】",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 5.72,
+      "top": 3.61,
+      "width": 1.91,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "建议展示：准确率对比柱状图",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 5.82,
+      "top": 3.26,
+      "width": 1.68,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "【待填充数据图表】",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 9.82,
+      "top": 3.61,
+      "width": 2.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "建议展示：人效提升百分比仪表盘",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 10.07,
+      "top": 3.26,
+      "width": 1.68,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "【待填充数据图表】",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.87,
+      "top": 5.7,
+      "width": 0.79,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "成果总结",
+          "font_name": "NotoSansSC",
+          "font_size": 13.5,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 2.83,
+      "top": 6.52,
+      "width": 8.21,
+      "height": 0.22,
+      "paragraphs": [
+        {
+          "text": "例如：Agent System 上线后，代码生成采纳率稳步提升，Bug定位准确率达到预期目标，显著提升了团队整体研发效率。",
+          "font_name": "NotoSansSC",
+          "font_size": 10.8,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 5.73,
+      "top": 6.28,
+      "width": 2.06,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "【在此处输入总结性文字】",
+          "font_name": "NotoSansSC",
+          "font_size": 12.4,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "left": 0.75,
+      "top": 0.39,
+      "width": 3.54,
+      "height": 0.54,
+      "paragraphs": [
+        {
+          "text": "业务开发工作量积累",
+          "font_name": "NotoSansSC",
+          "font_size": 27.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.3,
+      "top": 1.55,
+      "width": 2.24,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "Able编辑器ECA化改造",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.66,
+      "top": 1.46,
+      "width": 0.57,
+      "height": 0.68,
+      "paragraphs": [
+        {
+          "text": "01",
+          "font_name": "NotoSansSC",
+          "font_size": 36.0,
+          "bold": false,
+          "underline": false,
+          "color": "F3F4F6"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 7.64,
+      "top": 1.55,
+      "width": 2.12,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "ChestPVE 3C基建开发",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 11.99,
+      "top": 1.46,
+      "width": 0.57,
+      "height": 0.68,
+      "paragraphs": [
+        {
+          "text": "02",
+          "font_name": "NotoSansSC",
+          "font_size": 36.0,
+          "bold": false,
+          "underline": false,
+          "color": "F3F4F6"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.94,
+      "top": 2.39,
+      "width": 4.66,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：简述编辑器改造的核心目标。例如：重构底层架构，实现ECA",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.94,
+      "top": 2.63,
+      "width": 4.59,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "（Event-Condition-Action）可视化编程，提升策划配置效率30%...】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.27,
+      "top": 2.39,
+      "width": 5.21,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "【待填充：描述PVE 3C基建的关键功能。例如：角色控制（Character）、镜头",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.27,
+      "top": 2.63,
+      "width": 4.01,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "（Camera）、操作（Control）的基础框架搭建与优化...】",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 2.68,
+      "top": 5.5,
+      "width": 1.66,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "建议尺寸：16:9 / 1920x1080",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 2.75,
+      "top": 5.23,
+      "width": 1.5,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "【业务演示图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 9.02,
+      "top": 5.5,
+      "width": 1.66,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "建议尺寸：16:9 / 1920x1080",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 9.08,
+      "top": 5.23,
+      "width": 1.5,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "【业务演示图位置】",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "left": 0.73,
+      "top": 0.22,
+      "width": 2.95,
+      "height": 0.45,
+      "paragraphs": [
+        {
+          "text": "成长收获与未来规划",
+          "font_name": "NotoSansSC",
+          "font_size": 22.5,
+          "bold": false,
+          "underline": false,
+          "color": "0052D9"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 12.1,
+      "top": 0.32,
+      "width": 0.77,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "总结与展望",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "9CA3AF"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.21,
+      "top": 1.61,
+      "width": 0.87,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "技术成长",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.49,
+      "top": 1.61,
+      "width": 0.87,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "不足反思",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 9.76,
+      "top": 1.61,
+      "width": 0.87,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "未来规划",
+          "font_name": "NotoSansSC",
+          "font_size": 15.0,
+          "bold": false,
+          "underline": false,
+          "color": "1F2937"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.67,
+      "top": 2.4,
+      "width": 2.07,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "回顾过去阶段的核心技术突破：",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 4.94,
+      "top": 2.4,
+      "width": 2.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "识别当前存在的短板与改进空间：",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 9.22,
+      "top": 2.4,
+      "width": 2.22,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "制定下一阶段的职业与技术目标：",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.94,
+      "top": 3.03,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.23,
+      "top": 3.01,
+      "width": 2.36,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加关键技术突破点...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 5.24,
+      "top": 3.03,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "!",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 5.51,
+      "top": 3.01,
+      "width": 2.71,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加技术深度不足的反思...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 9.74,
+      "top": 3.01,
+      "width": 2.54,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加短期技术学习目标...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.94,
+      "top": 3.74,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 1.23,
+      "top": 3.72,
+      "width": 2.54,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加项目实战经验总结...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 5.24,
+      "top": 3.74,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "!",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 5.51,
+      "top": 3.72,
+      "width": 2.89,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加沟通协作中的待改进点...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 9.74,
+      "top": 3.72,
+      "width": 2.54,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加业务领域深耕计划...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 0.94,
+      "top": 4.45,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "3",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 1.23,
+      "top": 4.43,
+      "width": 2.71,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加工具或流程优化成果...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 5.24,
+      "top": 4.57,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "!",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-21": {
+      "left": 5.51,
+      "top": 4.43,
+      "width": 2.62,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加项目管理或时间规划问",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-22": {
+      "left": 5.51,
+      "top": 4.68,
+      "width": 0.44,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "题...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-23": {
+      "left": 9.74,
+      "top": 4.43,
+      "width": 2.54,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加长期职业发展愿景...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-24": {
+      "left": 0.94,
+      "top": 5.16,
+      "width": 0.12,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "4",
+          "font_name": "NotoSansSC",
+          "font_size": 9.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-25": {
+      "left": 1.23,
+      "top": 5.13,
+      "width": 2.54,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加代码质量提升心得...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    },
+    "shape-26": {
+      "left": 9.74,
+      "top": 5.13,
+      "width": 2.71,
+      "height": 0.24,
+      "paragraphs": [
+        {
+          "text": "在此处添加团队贡献与分享计划...",
+          "font_name": "NotoSansSC",
+          "font_size": 12.0,
+          "bold": false,
+          "underline": false,
+          "color": "999999"
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "left": 3.73,
+      "top": 4.3,
+      "width": 6.83,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "感谢导师  蒋甫政  及  元梦之星开发一组  的指导与帮助",
+          "font_name": "NotoSansSC",
+          "font_size": 18.0,
+          "bold": false,
+          "underline": false,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 6.13,
+      "top": 5.64,
+      "width": 1.0,
+      "height": 0.51,
+      "paragraphs": [
+        {
+          "text": "Q & A",
+          "font_name": "NotoSansSC",
+          "font_size": 27.0,
+          "bold": false,
+          "underline": false,
+          "color": "ED7B2F"
+        }
+      ]
+    }
+  }
+}

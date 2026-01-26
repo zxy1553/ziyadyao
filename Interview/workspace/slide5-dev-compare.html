@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #f8f9fa; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+  background: #f8f9fa;
+}
+.header { padding: 18pt 30pt 10pt 30pt; }
+h1 { color: #1a1a2e; font-size: 22pt; margin: 0 0 6pt 0; font-weight: bold; }
+.title-bar { width: 50pt; height: 4pt; background: #1a73e8; border-radius: 2pt; }
+
+.content { display: flex; gap: 15pt; padding: 0 30pt; flex: 1; }
+
+.compare-col { flex: 1; display: flex; flex-direction: column; gap: 10pt; }
+
+.card {
+  background: #ffffff;
+  border-radius: 10pt;
+  padding: 14pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+  flex: 1;
+}
+.card-bad { border-top: 3pt solid #f44336; }
+.card-good { border-top: 3pt solid #4caf50; }
+
+.card-header {
+  display: flex; align-items: center; gap: 8pt;
+  margin-bottom: 10pt;
+}
+.badge-bad {
+  background: #ffebee; color: #c62828;
+  padding: 3pt 8pt; border-radius: 4pt;
+  font-size: 9pt; font-weight: bold;
+}
+.badge-good {
+  background: #e8f5e9; color: #2e7d32;
+  padding: 3pt 8pt; border-radius: 4pt;
+  font-size: 9pt; font-weight: bold;
+}
+.card-title { color: #333; font-size: 12pt; font-weight: bold; margin: 0; }
+
+.step-list { list-style: none; padding: 0; margin: 0; }
+.step-list li {
+  display: flex; align-items: flex-start; gap: 6pt;
+  margin-bottom: 6pt;
+  font-size: 9pt;
+  color: #555;
+}
+.step-num {
+  background: #e0e0e0;
+  color: #666;
+  width: 16pt; height: 16pt;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 8pt; font-weight: bold;
+  flex-shrink: 0;
+}
+.step-good .step-num { background: #c8e6c9; color: #2e7d32; }
+
+.step-text { line-height: 1.4; }
+.highlight-bad { color: #c62828; font-weight: bold; }
+.highlight-good { color: #2e7d32; font-weight: bold; }
+
+.summary-table {
+  background: #ffffff;
+  border-radius: 10pt;
+  padding: 14pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+  margin: 10pt 30pt 15pt 30pt;
+}
+.summary-title { color: #333; font-size: 11pt; font-weight: bold; margin: 0 0 10pt 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+}
+th {
+  background: #f5f5f5;
+  color: #333;
+  padding: 6pt 10pt;
+  text-align: left;
+  font-weight: bold;
+}
+td {
+  padding: 6pt 10pt;
+  border-bottom: 1pt solid #f0f0f0;
+  color: #555;
+}
+tr:last-child td { border-bottom: none; }
+.col-bad { color: #c62828; }
+.col-good { color: #2e7d32; font-weight: bold; }
+
+.insight-bar {
+  background: #e3f2fd;
+  margin: 0 30pt 15pt 30pt;
+  padding: 10pt 15pt;
+  border-radius: 8pt;
+  border-left: 4pt solid #1a73e8;
+}
+.insight-text { color: #1565c0; font-size: 10pt; margin: 0; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Dev Agent 实战对比</h1>
+  <div class="title-bar"></div>
+</div>
+
+<div class="content">
+  <div class="compare-col">
+    <div class="card card-bad">
+      <div class="card-header">
+        <span class="badge-bad">❌ Default Agent</span>
+        <p class="card-title">无知识库支持</p>
+      </div>
+      <ul class="step-list">
+        <li>
+          <span class="step-num">1</span>
+          <span class="step-text">搜索代码找到 <code>GetAbilitySystemComponent</code></span>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <span class="step-text">直接使用 → <span class="highlight-bad">编译报错</span>（这是 Actor 成员函数）</span>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <span class="step-text">再搜 GetSelf / GetSelfActor → 还是错</span>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <span class="step-text"><span class="highlight-bad">多次试错，效率低</span></span>
+        </li>
+      </ul>
+      <p style="margin:8pt 0 0 0; padding:6pt; background:#fff5f5; border-radius:4pt; font-size:8pt; color:#c62828;">
+        ⚠️ 无开发模板，遗漏蓝图配置步骤
+      </p>
+    </div>
+  </div>
+
+  <div class="compare-col">
+    <div class="card card-good">
+      <div class="card-header">
+        <span class="badge-good">✅ Dev Agent</span>
+        <p class="card-title">知识库 + Skill</p>
+      </div>
+      <ul class="step-list step-good">
+        <li>
+          <span class="step-num">1</span>
+          <span class="step-text">检索知识库获取正确 API</span>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <span class="step-text">返回：用 <code>GetASCFromActor</code></span>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <span class="step-text"><span class="highlight-good">一次正确</span>，无编译错误</span>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <span class="step-text">Skill 指导完整流程</span>
+        </li>
+      </ul>
+      <p style="margin:8pt 0 0 0; padding:6pt; background:#e8f5e9; border-radius:4pt; font-size:8pt; color:#2e7d32;">
+        ✅ 框架自动生成，提示蓝图配置
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="summary-table">
+  <p class="summary-title">📋 关键差异总结</p>
+  <table>
+    <tr><th>维度</th><th>Default Agent</th><th>Dev Agent</th></tr>
+    <tr><td>API 检索</td><td class="col-bad">猜测 → 多次试错</td><td class="col-good">知识库 → 一次正确</td></tr>
+    <tr><td>开发模板</td><td class="col-bad">无 → 从零开始</td><td class="col-good">Skill → 框架自动生成</td></tr>
+    <tr><td>蓝图配置</td><td class="col-bad">遗漏步骤</td><td class="col-good">流程完整，主动提示</td></tr>
+  </table>
+</div>
+
+<div class="insight-bar">
+  <p class="insight-text">💡 不是 Agent 变聪明了，是给它提供了正确的信息和流程</p>
+</div>
+</body>
+</html>

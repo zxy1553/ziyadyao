@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #f8f9fa; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+  background: #f8f9fa;
+}
+.header {
+  padding: 20pt 30pt 12pt 30pt;
+}
+h1 { color: #1a1a2e; font-size: 24pt; margin: 0 0 6pt 0; font-weight: bold; }
+.title-bar { width: 50pt; height: 4pt; background: #1a73e8; border-radius: 2pt; }
+
+.content {
+  display: flex; gap: 20pt;
+  padding: 0 30pt;
+  flex: 1;
+}
+
+.left-col { flex: 1.2; display: flex; flex-direction: column; gap: 12pt; }
+.right-col { flex: 0.8; display: flex; flex-direction: column; }
+
+.section-title {
+  color: #1a73e8; font-size: 11pt; font-weight: bold;
+  margin: 0 0 8pt 0;
+  display: flex; align-items: center; gap: 6pt;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10pt;
+  padding: 14pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+}
+.card-header {
+  display: flex; align-items: center; gap: 8pt;
+  padding-bottom: 8pt;
+  border-bottom: 1pt solid #eee;
+  margin-bottom: 10pt;
+}
+.card-icon {
+  width: 24pt; height: 24pt;
+  border-radius: 6pt;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12pt;
+}
+.dev-icon { background: #e3f2fd; color: #1565c0; }
+.debug-icon { background: #fff3e0; color: #ef6c00; }
+
+.card-title { color: #333; font-size: 12pt; font-weight: bold; margin: 0; }
+
+.skill-row {
+  display: flex; gap: 8pt;
+  margin-bottom: 6pt;
+}
+.skill-name {
+  background: #f5f5f5;
+  padding: 4pt 8pt;
+  border-radius: 4pt;
+  font-size: 9pt;
+  color: #1a73e8;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+}
+.skill-desc {
+  color: #666;
+  font-size: 9pt;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.problem-box {
+  background: #fff5f5;
+  border-left: 3pt solid #ff5252;
+  padding: 10pt;
+  border-radius: 0 6pt 6pt 0;
+  margin-bottom: 10pt;
+}
+.problem-title { color: #d32f2f; font-size: 10pt; font-weight: bold; margin: 0 0 6pt 0; }
+.problem-item { color: #666; font-size: 9pt; margin: 0 0 3pt 0; }
+
+.insight-box {
+  background: #e8f5e9;
+  border-left: 3pt solid #4caf50;
+  padding: 10pt;
+  border-radius: 0 6pt 6pt 0;
+}
+.insight-title { color: #2e7d32; font-size: 10pt; font-weight: bold; margin: 0 0 4pt 0; }
+.insight-text { color: #444; font-size: 9pt; margin: 0; font-style: italic; }
+
+.arch-diagram {
+  background: #ffffff;
+  border-radius: 10pt;
+  padding: 14pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+  flex: 1;
+  display: flex; flex-direction: column;
+}
+.arch-title { color: #333; font-size: 11pt; font-weight: bold; margin: 0 0 10pt 0; text-align: center; }
+
+.arch-stack { display: flex; flex-direction: column; gap: 8pt; flex: 1; }
+.arch-layer {
+  border-radius: 8pt;
+  padding: 10pt;
+  text-align: center;
+}
+.layer-top { display: flex; gap: 8pt; }
+.layer-item {
+  flex: 1;
+  border-radius: 6pt;
+  padding: 8pt;
+}
+.dev-layer { background: #e3f2fd; border: 1pt solid #90caf9; }
+.debug-layer { background: #fff3e0; border: 1pt solid #ffcc80; }
+.base-layer { background: #f3e5f5; border: 1pt solid #ce93d8; }
+.layer-label { font-size: 10pt; font-weight: bold; margin: 0; }
+.layer-sub { font-size: 8pt; color: #666; margin: 2pt 0 0 0; }
+.dev-layer .layer-label { color: #1565c0; }
+.debug-layer .layer-label { color: #ef6c00; }
+.base-layer .layer-label { color: #7b1fa2; }
+
+.arrow-down {
+  text-align: center;
+  color: #999;
+  font-size: 14pt;
+  margin: 4pt 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Skill 矩阵：能力叠加架构</h1>
+  <div class="title-bar"></div>
+</div>
+
+<div class="content">
+  <div class="left-col">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon dev-icon"><p style="margin:0;">🔧</p></div>
+        <p class="card-title">Dev Skills</p>
+      </div>
+      <div class="skill-row">
+        <p class="skill-name">GAS-AbleTask</p>
+        <p class="skill-desc">Basic/SpawnActor/HitTask 等多套模板</p>
+      </div>
+      <div class="skill-row">
+        <p class="skill-name">Condition</p>
+        <p class="skill-desc">内置专家知识，实时指导开发</p>
+      </div>
+      <div class="skill-row">
+        <p class="skill-name">Status</p>
+        <p class="skill-desc">替代晦涩文档，提供开发 SOP</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon debug-icon"><p style="margin:0;">🐛</p></div>
+        <p class="card-title">Debug Skills</p>
+      </div>
+      <div class="skill-row">
+        <p class="skill-name">DS Log Dump</p>
+        <p class="skill-desc">BattleID → 自动拉取 DS 日志</p>
+      </div>
+      <div class="skill-row">
+        <p class="skill-name">Log Split</p>
+        <p class="skill-desc">按时间戳智能切分，每份 &lt;10MB</p>
+      </div>
+    </div>
+
+    <div class="problem-box">
+      <p class="problem-title">⚠️ 提效了，但人工介入仍多</p>
+      <p class="problem-item">• Dev: API 混淆 (GetOwningPawn vs GetSelfActor)</p>
+      <p class="problem-item">• Debug: 误判正常机制为异常</p>
+    </div>
+  </div>
+
+  <div class="right-col">
+    <div class="arch-diagram">
+      <p class="arch-title">架构层次</p>
+      <div class="arch-stack">
+        <div class="layer-top">
+          <div class="layer-item dev-layer">
+            <p class="layer-label">🔧 Dev Skills</p>
+            <p class="layer-sub">代码生成、模板</p>
+          </div>
+          <div class="layer-item debug-layer">
+            <p class="layer-label">🐛 Debug Skills</p>
+            <p class="layer-sub">日志拉取、切分</p>
+          </div>
+        </div>
+        <p class="arrow-down">▼ 叠加</p>
+        <div class="arch-layer base-layer">
+          <p class="layer-label">🧠 Base Agent</p>
+          <p class="layer-sub">通用大模型能力</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight-box" style="margin-top: 12pt;">
+      <p class="insight-title">💡 核心洞察</p>
+      <p class="insight-text">Skill 解决了"怎么做"，但 Agent 仍缺少"知道什么" → 需要引入知识库</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

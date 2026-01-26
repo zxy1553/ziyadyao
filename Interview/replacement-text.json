@@ -1,0 +1,55 @@
+{
+  "slide-1": {
+    "shape-3": {
+      "paragraphs": [
+        {
+          "text": "需花费大量时间寻找正确的类方法及API，分析继承关系、接口定义、",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "color": "6B7280"
+        },
+        {
+          "text": "UE反射、Lua是否可调用复写等，大部分时间不在业务开发上",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-4": {
+      "paragraphs": []
+    },
+    "shape-6": {
+      "paragraphs": [
+        {
+          "text": "遇到无法本地复现或偶现Bug时仅可依靠日志，Bug定位困难；缺乏有效的",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "color": "6B7280"
+        },
+        {
+          "text": "日志信息提取方法，人工排查调用链、分析具体场景代码逻辑难度高",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-7": {
+      "paragraphs": []
+    },
+    "shape-11": {
+      "paragraphs": [
+        {
+          "text": "Task开发等框架相似但细节不同的任务，需不断重复开发、微调内部逻辑",
+          "font_name": "NotoSansSC",
+          "font_size": 10.5,
+          "color": "6B7280"
+        }
+      ]
+    },
+    "shape-12": {
+      "paragraphs": []
+    }
+  }
+}

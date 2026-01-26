@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #f8f9fa; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+  background: #f8f9fa;
+}
+.header { padding: 16pt 30pt 8pt 30pt; }
+h1 { color: #1a1a2e; font-size: 20pt; margin: 0 0 6pt 0; font-weight: bold; }
+.title-bar { width: 50pt; height: 4pt; background: #ff9800; border-radius: 2pt; }
+
+.compare-row {
+  display: flex; gap: 10pt;
+  padding: 0 30pt;
+  margin-bottom: 10pt;
+}
+
+.compare-card {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 8pt;
+  padding: 10pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+}
+.card-red { border-top: 3pt solid #f44336; }
+.card-yellow { border-top: 3pt solid #ff9800; }
+.card-green { border-top: 3pt solid #4caf50; }
+
+.card-header { display: flex; align-items: center; gap: 6pt; margin-bottom: 8pt; }
+.badge {
+  padding: 2pt 6pt; border-radius: 3pt;
+  font-size: 8pt; font-weight: bold;
+}
+.badge-red { background: #ffebee; color: #c62828; }
+.badge-yellow { background: #fff3e0; color: #ef6c00; }
+.badge-green { background: #e8f5e9; color: #2e7d32; }
+.card-title { color: #333; font-size: 10pt; font-weight: bold; margin: 0; }
+
+.feature-list { list-style: none; padding: 0; margin: 0; }
+.feature-list li {
+  font-size: 8pt; color: #555;
+  padding: 3pt 0;
+  display: flex; align-items: center; gap: 4pt;
+}
+.icon-bad { color: #f44336; }
+.icon-warn { color: #ff9800; }
+.icon-good { color: #4caf50; }
+
+.workflow-section {
+  background: #ffffff;
+  margin: 0 30pt;
+  padding: 12pt;
+  border-radius: 8pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+}
+.workflow-title { color: #333; font-size: 11pt; font-weight: bold; margin: 0 0 10pt 0; }
+
+.workflow-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.step-box {
+  background: #f5f5f5;
+  border-radius: 8pt;
+  padding: 10pt;
+  text-align: center;
+  width: 130pt;
+}
+.step-box.s1 { background: #e3f2fd; border: 1pt solid #90caf9; }
+.step-box.s2 { background: #e8f5e9; border: 1pt solid #a5d6a7; }
+.step-box.s3 { background: #fff3e0; border: 1pt solid #ffcc80; }
+.step-box.s4 { background: #f3e5f5; border: 1pt solid #ce93d8; }
+
+.step-num {
+  font-size: 8pt; color: #999;
+  margin: 0 0 4pt 0;
+}
+.step-name { font-size: 10pt; font-weight: bold; color: #333; margin: 0 0 4pt 0; }
+.step-desc { font-size: 7pt; color: #666; margin: 0; }
+.s1 .step-name { color: #1565c0; }
+.s2 .step-name { color: #2e7d32; }
+.s3 .step-name { color: #ef6c00; }
+.s4 .step-name { color: #7b1fa2; }
+
+.arrow { color: #ccc; font-size: 16pt; }
+
+.summary-row {
+  display: flex; gap: 10pt;
+  padding: 10pt 30pt;
+}
+.summary-card {
+  flex: 1;
+  background: #fff5f5;
+  border-left: 3pt solid #f44336;
+  padding: 8pt;
+  border-radius: 0 6pt 6pt 0;
+}
+.summary-card.good {
+  background: #e8f5e9;
+  border-left-color: #4caf50;
+}
+.summary-title { color: #333; font-size: 9pt; font-weight: bold; margin: 0 0 4pt 0; }
+.summary-item { color: #666; font-size: 8pt; margin: 0 0 2pt 0; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Debug Agent 三方对比</h1>
+  <div class="title-bar"></div>
+</div>
+
+<div class="compare-row">
+  <div class="compare-card card-red">
+    <div class="card-header">
+      <span class="badge badge-red">🔴</span>
+      <p class="card-title">TAPD AI (网页)</p>
+    </div>
+    <ul class="feature-list">
+      <li><span class="icon-bad">❌</span> 无法获取日志</li>
+      <li><span class="icon-bad">❌</span> 只读 Bug 描述</li>
+      <li><span class="icon-bad">❌</span> 只能给通用建议</li>
+    </ul>
+  </div>
+
+  <div class="compare-card card-yellow">
+    <div class="card-header">
+      <span class="badge badge-yellow">🟡</span>
+      <p class="card-title">Default Agent</p>
+    </div>
+    <ul class="feature-list">
+      <li><span class="icon-warn">⚠️</span> 需手动提供日志</li>
+      <li><span class="icon-warn">⚠️</span> 大文件读不了</li>
+      <li><span class="icon-warn">⚠️</span> 无固定分析流程</li>
+    </ul>
+  </div>
+
+  <div class="compare-card card-green">
+    <div class="card-header">
+      <span class="badge badge-green">🟢</span>
+      <p class="card-title">Debug Agent</p>
+    </div>
+    <ul class="feature-list">
+      <li><span class="icon-good">✅</span> 自动拉取日志</li>
+      <li><span class="icon-good">✅</span> 智能切分 &lt;10MB</li>
+      <li><span class="icon-good">✅</span> Debug总纲规范</li>
+    </ul>
+  </div>
+</div>
+
+<div class="workflow-section">
+  <p class="workflow-title">🔄 Debug Agent 完整工作流</p>
+  <div class="workflow-steps">
+    <div class="step-box s1">
+      <p class="step-num">Step 1</p>
+      <p class="step-name">ds_log_dump</p>
+      <p class="step-desc">输入 BattleID</p>
+      <p class="step-desc">自动从智研拉取</p>
+    </div>
+    <p class="arrow">→</p>
+    <div class="step-box s2">
+      <p class="step-num">Step 2</p>
+      <p class="step-name">log_split</p>
+      <p class="step-desc">按时间/角色切分</p>
+      <p class="step-desc">每份 &lt;10MB</p>
+    </div>
+    <p class="arrow">→</p>
+    <div class="step-box s3">
+      <p class="step-num">Step 3</p>
+      <p class="step-name">Debug总纲</p>
+      <p class="step-desc">固定分析流程</p>
+      <p class="step-desc">精准定位问题</p>
+    </div>
+    <p class="arrow">→</p>
+    <div class="step-box s4">
+      <p class="step-num">Step 4</p>
+      <p class="step-name">输出报告</p>
+      <p class="step-desc">分析文档</p>
+      <p class="step-desc">关键日志行号</p>
+    </div>
+  </div>
+</div>
+
+<div class="summary-row">
+  <div class="summary-card">
+    <p class="summary-title">❌ Default Agent 的问题</p>
+    <p class="summary-item">• 不知道分析谁的日志</p>
+    <p class="summary-item">• 分析无关时间段</p>
+    <p class="summary-item">• 不给关键日志引用</p>
+  </div>
+  <div class="summary-card good">
+    <p class="summary-title">✅ Debug Agent 的解决</p>
+    <p class="summary-item">• 按 BattleID 自动过滤</p>
+    <p class="summary-item">• 按时间戳智能切分</p>
+    <p class="summary-item">• 输出文档 + 行号</p>
+  </div>
+</div>
+</body>
+</html>

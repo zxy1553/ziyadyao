@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #f8f9fa; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+  background: #f8f9fa;
+}
+.header { padding: 18pt 30pt 10pt 30pt; }
+h1 { color: #1a1a2e; font-size: 22pt; margin: 0 0 6pt 0; font-weight: bold; }
+.title-bar { width: 50pt; height: 4pt; background: #4caf50; border-radius: 2pt; }
+.subtitle { color: #666; font-size: 11pt; margin: 6pt 0 0 0; font-style: italic; }
+
+.content { display: flex; gap: 15pt; padding: 0 30pt; flex: 1; }
+.left-col { flex: 1; display: flex; flex-direction: column; gap: 10pt; }
+.right-col { flex: 1; display: flex; flex-direction: column; }
+
+.card {
+  background: #ffffff;
+  border-radius: 10pt;
+  padding: 12pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+}
+.card-title {
+  color: #4caf50; font-size: 11pt; font-weight: bold;
+  margin: 0 0 8pt 0;
+  display: flex; align-items: center; gap: 6pt;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+}
+.compare-table th {
+  background: #f5f5f5;
+  color: #333;
+  padding: 6pt 8pt;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1pt solid #e0e0e0;
+}
+.compare-table td {
+  padding: 5pt 8pt;
+  border-bottom: 1pt solid #f0f0f0;
+  color: #555;
+}
+.compare-table tr:last-child td { border-bottom: none; }
+.highlight-row td { background: #e8f5e9; color: #2e7d32; font-weight: bold; }
+.tag-high { color: #4caf50; font-weight: bold; }
+.tag-mid { color: #ff9800; }
+.tag-low { color: #f44336; }
+
+.arch-box {
+  background: #ffffff;
+  border-radius: 10pt;
+  padding: 14pt;
+  box-shadow: 0 2pt 6pt rgba(0,0,0,0.05);
+  flex: 1;
+}
+.arch-title { color: #333; font-size: 11pt; font-weight: bold; margin: 0 0 10pt 0; }
+
+.tree-container { font-size: 8pt; color: #555; line-height: 1.6; }
+.tree-root {
+  background: #4caf50; color: white;
+  padding: 4pt 10pt; border-radius: 4pt;
+  display: inline-block; margin-bottom: 6pt;
+  font-weight: bold;
+}
+.tree-branch { margin-left: 12pt; border-left: 1pt solid #ccc; padding-left: 10pt; }
+.tree-node {
+  background: #e3f2fd; color: #1565c0;
+  padding: 3pt 8pt; border-radius: 3pt;
+  display: inline-block; margin: 2pt 0;
+  font-weight: bold;
+}
+.tree-leaf {
+  background: #fff3e0; color: #ef6c00;
+  padding: 2pt 6pt; border-radius: 3pt;
+  display: inline-block; margin: 1pt 0;
+  font-size: 7pt;
+}
+
+.value-box {
+  background: #e8f5e9;
+  border-left: 3pt solid #4caf50;
+  padding: 8pt;
+  border-radius: 0 6pt 6pt 0;
+  margin-top: 10pt;
+}
+.value-title { color: #2e7d32; font-size: 9pt; font-weight: bold; margin: 0 0 4pt 0; }
+.value-item { color: #555; font-size: 8pt; margin: 0 0 2pt 0; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>知识库设计：从"能做"到"做对"</h1>
+  <div class="title-bar"></div>
+  <p class="subtitle">Skill 教会了 Agent "怎么做"，知识库告诉它"知道什么"</p>
+</div>
+
+<div class="content">
+  <div class="left-col">
+    <div class="card">
+      <p class="card-title">📊 检索方案对比</p>
+      <table class="compare-table">
+        <tr><th>方案</th><th>精度</th><th>局限</th></tr>
+        <tr><td>源码搜索</td><td class="tag-low">低</td><td>量大，看不出意图</td></tr>
+        <tr><td>Codebase Search</td><td class="tag-mid">中</td><td>搜不到"怎么用"</td></tr>
+        <tr class="highlight-row"><td>Knowledge</td><td class="tag-high">高</td><td>精准、可迭代</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <p class="card-title">✅ 知识库能补充什么？</p>
+      <table class="compare-table">
+        <tr><th>维度</th><th>Codebase</th><th>Knowledge</th></tr>
+        <tr><td>API 检索</td><td>找到在哪</td><td class="tag-high">怎么用、何时用</td></tr>
+        <tr><td>最佳实践</td><td class="tag-low">❌</td><td class="tag-high">✅ 参考实现</td></tr>
+        <tr><td>经验沉淀</td><td class="tag-low">❌</td><td class="tag-high">✅ Debug 案例</td></tr>
+      </table>
+    </div>
+
+    <div class="value-box">
+      <p class="value-title">💡 设计思考</p>
+      <p class="value-item">• 不放代码（Agent 本来就能搜）</p>
+      <p class="value-item">• 放 Agent 的盲区：API 用法、日志含义</p>
+      <p class="value-item">• 用 JSON 格式，结构化精准检索</p>
+    </div>
+  </div>
+
+  <div class="right-col">
+    <div class="arch-box">
+      <p class="arch-title">📁 分层架构设计</p>
+      <div class="tree-container">
+        <p style="margin:0;"><span class="tree-root">_index.md 入口</span></p>
+        <div class="tree-branch">
+          <p style="margin:4pt 0;"><span class="tree-node">domain_context</span> <span style="color:#999;">战斗系统背景</span></p>
+          <p style="margin:4pt 0;"><span class="tree-node">domain_agreements</span> <span style="color:#999;">开发通用约定</span></p>
+          <p style="margin:4pt 0;"><span class="tree-node">Concepts/</span> <span style="color:#999;">架构设计文档</span></p>
+          <div class="tree-branch">
+            <p style="margin:2pt 0;"><span class="tree-leaf">Core/</span> <span class="tree-leaf">Effect/</span> <span class="tree-leaf">Targeting/</span></p>
+            <p style="margin:2pt 0;"><span class="tree-leaf">Cue/</span> <span class="tree-leaf">Equipment/</span></p>
+          </div>
+          <p style="margin:4pt 0;"><span class="tree-node">Debug/</span> <span style="color:#999;">案例+方法论</span></p>
+        </div>
+      </div>
+
+      <div style="margin-top:10pt; padding:8pt; background:#f5f5f5; border-radius:6pt;">
+        <p style="margin:0 0 4pt 0; color:#333; font-size:9pt; font-weight:bold;">📦 模块标准结构</p>
+        <p style="margin:0; color:#666; font-size:8pt; font-family: Courier New;">
+          模块/ ├─ API/ (JSON) ├─ Logs/ (JSON) └─ impl.json
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

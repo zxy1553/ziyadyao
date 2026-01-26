@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #f8f9fa; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+  background: #f8f9fa;
+}
+.header {
+  padding: 20pt 30pt 15pt 30pt;
+  display: flex; justify-content: space-between; align-items: flex-start;
+}
+.title-section { display: flex; flex-direction: column; }
+h1 { color: #1a1a2e; font-size: 28pt; margin: 0 0 8pt 0; font-weight: bold; }
+.title-bar { width: 50pt; height: 4pt; background: #1a73e8; border-radius: 2pt; }
+.stats-section { text-align: right; }
+.stats-label { color: #666; font-size: 10pt; margin: 0; }
+.stats-number { color: #1a73e8; font-size: 36pt; font-weight: bold; margin: 0; }
+.stats-unit { color: #1a73e8; font-size: 14pt; margin: 0; }
+
+.cards-container {
+  display: flex; gap: 15pt;
+  padding: 0 30pt;
+  flex: 1;
+}
+.card {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 12pt;
+  padding: 18pt;
+  box-shadow: 0 2pt 8pt rgba(0,0,0,0.06);
+  display: flex; flex-direction: column;
+}
+.card-header {
+  display: flex; align-items: center; gap: 8pt;
+  margin-bottom: 12pt;
+}
+.card-icon {
+  width: 28pt; height: 28pt;
+  background: #e8f0fe;
+  border-radius: 6pt;
+  display: flex; align-items: center; justify-content: center;
+}
+.card-title { color: #1a1a2e; font-size: 14pt; font-weight: bold; margin: 0; }
+.card-stats { display: flex; align-items: baseline; gap: 4pt; margin-bottom: 10pt; }
+.card-percent { color: #1a73e8; font-size: 22pt; font-weight: bold; margin: 0; }
+.card-count { color: #999; font-size: 10pt; margin: 0; }
+.card-bar { height: 3pt; background: #e0e0e0; border-radius: 2pt; margin-bottom: 12pt; }
+.card-bar-fill { height: 100%; background: #1a73e8; border-radius: 2pt; }
+
+.card-list { list-style: none; padding: 0; margin: 0; }
+.card-list li {
+  color: #444; font-size: 9pt;
+  padding: 4pt 0;
+  border-left: 2pt solid #1a73e8;
+  padding-left: 8pt;
+  margin-bottom: 4pt;
+}
+
+.footer {
+  padding: 15pt 30pt;
+  display: flex; align-items: center; gap: 15pt;
+}
+.footer-label { color: #666; font-size: 10pt; margin: 0; white-space: nowrap; }
+.progress-bar {
+  flex: 1; height: 8pt;
+  background: #e0e0e0;
+  border-radius: 4pt;
+  display: flex;
+}
+.progress-dev { background: #1a73e8; border-radius: 4pt 0 0 4pt; }
+.progress-bug { background: #ff9800; border-radius: 0 4pt 4pt 0; }
+.footer-stat { font-size: 10pt; margin: 0; white-space: nowrap; }
+.footer-stat.dev { color: #1a73e8; }
+.footer-stat.bug { color: #ff9800; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="title-section">
+    <h1>业务开发工作积累</h1>
+    <div class="title-bar"></div>
+  </div>
+  <div class="stats-section">
+    <p class="stats-label">实习期间总工作量 (2025.09-2026.01)</p>
+    <p class="stats-number">63<span class="stats-unit">项</span></p>
+  </div>
+</div>
+
+<div class="cards-container">
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon"><p style="margin:0;color:#1a73e8;font-size:14pt;">⚡</p></div>
+      <p class="card-title">战斗系统</p>
+    </div>
+    <div class="card-stats">
+      <p class="card-percent">35%</p>
+      <p class="card-count">/ 22项</p>
+    </div>
+    <div class="card-bar"><div class="card-bar-fill" style="width:35%;"></div></div>
+    <ul class="card-list">
+      <li>Condition/Filter (阵营、距离、Tag)</li>
+      <li>Find Target Task 扩展</li>
+      <li>检测框尺寸与相机UI适配</li>
+      <li>受击音效、特效接口扩展</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon"><p style="margin:0;color:#1a73e8;font-size:14pt;">👁</p></div>
+      <p class="card-title">3C表现</p>
+    </div>
+    <div class="card-stats">
+      <p class="card-percent">43%</p>
+      <p class="card-count">/ 27项</p>
+    </div>
+    <div class="card-bar"><div class="card-bar-fill" style="width:43%;"></div></div>
+    <ul class="card-list">
+      <li>武器装备角色动画切换系统</li>
+      <li>武器显隐、动画时序优化</li>
+      <li>角色物理初始化流程整理</li>
+      <li>多端适配 Bug 修复</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon"><p style="margin:0;color:#1a73e8;font-size:14pt;">🤖</p></div>
+      <p class="card-title">AI智能体</p>
+    </div>
+    <div class="card-stats">
+      <p class="card-percent">8%</p>
+      <p class="card-count">/ 5项</p>
+    </div>
+    <div class="card-bar"><div class="card-bar-fill" style="width:8%;"></div></div>
+    <ul class="card-list">
+      <li>战斗程序多智能体系统开发</li>
+      <li>Cpp Risk Analyzer 等 Skills</li>
+      <li>ChestPVE 战斗知识库搭建</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon"><p style="margin:0;color:#1a73e8;font-size:14pt;">⚙</p></div>
+      <p class="card-title">工具开发</p>
+    </div>
+    <div class="card-stats">
+      <p class="card-percent">14%</p>
+      <p class="card-count">/ 9项</p>
+    </div>
+    <div class="card-bar"><div class="card-bar-fill" style="width:14%;"></div></div>
+    <ul class="card-list">
+      <li>Able 编辑器 ECA 化</li>
+      <li>地图生成器开发 (连通率、Debug模块、UI美化)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  <p class="footer-label">工作类型分布</p>
+  <p class="footer-stat dev">+ 功能开发 47项 (75%)</p>
+  <div class="progress-bar">
+    <div class="progress-dev" style="width:75%;"></div>
+    <div class="progress-bug" style="width:25%;"></div>
+  </div>
+  <p class="footer-stat bug">⏱ Bug修复 16项 (25%)</p>
+</div>
+</body>
+</html>
