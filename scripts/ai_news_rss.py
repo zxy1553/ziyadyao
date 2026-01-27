@@ -197,9 +197,17 @@ if __name__ == "__main__":
     # 定义一些优质的 AI RSS 源
     # 部分源使用 Google News RSS 代理以确保稳定性（避免 403/400 错误）
     feeds = [
+        # 国内 AI 资讯 (新增)
+        ("机器之心 (Synced)", "https://www.jiqizhixin.com/rss"),
+        ("DeepSeek News", "https://news.google.com/rss/search?q=DeepSeek&hl=en-US&gl=US&ceid=US:en"),
+        ("Qwen (Alibaba) News", "https://news.google.com/rss/search?q=Qwen&hl=en-US&gl=US&ceid=US:en"),
+        ("Moonshot AI (Kimi) News", "https://news.google.com/rss/search?q=%22Moonshot%20AI%22&hl=en-US&gl=US&ceid=US:en"),
+        
+        # 国际 AI 巨头
         ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
         ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
-        ("Microsoft AI", "https://blogs.microsoft.com/ai/feed/"),
+        # Microsoft AI 官网 RSS 经常 403，改用 Google News 代理
+        ("Microsoft AI", "https://news.google.com/rss/search?q=site:blogs.microsoft.com/ai&hl=en-US&gl=US&ceid=US:en"),
         # Meta AI 官网 RSS 较难抓取，使用 Google News 代理
         ("Meta AI Blog", "https://news.google.com/rss/search?q=site:ai.meta.com/blog&hl=en-US&gl=US&ceid=US:en"),
         ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
